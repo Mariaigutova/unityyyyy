@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\hero.cs" />
     <Compile Include="Assets\CharacterManager.cs" />
+    <Compile Include="Assets\MainMenuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
