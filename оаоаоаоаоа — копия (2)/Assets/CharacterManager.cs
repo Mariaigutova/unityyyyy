@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterManager : MonoBehaviour
 {
@@ -45,6 +46,7 @@ public class CharacterManager : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("hero4");
         }
-        panelCharacter.SetActive(false);    
+        panelCharacter.SetActive(false);
+        SceneManager.LoadScene("SampleScene");
     }
 }
