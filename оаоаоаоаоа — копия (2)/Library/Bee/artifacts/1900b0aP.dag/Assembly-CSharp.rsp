@@ -329,6 +329,7 @@
 "Assets/camera.cs"
 "Assets/CharacterManager.cs"
 "Assets/enemysc.cs"
+"Assets/ExitManager.cs"
 "Assets/MainMenuController.cs"
 "Assets/Main_Camera.cs"
 "Assets/Scenes/hero.cs"

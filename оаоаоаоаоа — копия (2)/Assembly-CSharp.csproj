@@ -63,6 +63,7 @@
     <Compile Include="Assets\bo.cs" />
     <Compile Include="Assets\CharacterManager.cs" />
     <Compile Include="Assets\MainMenuController.cs" />
+    <Compile Include="Assets\ExitManager.cs" />
     <Compile Include="Assets\Main_Camera.cs" />
     <Compile Include="Assets\enemysc.cs" />
     <Compile Include="Assets\camera.cs" />

@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T09:41:53.901Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\CharacterManager.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\CharacterManager.cs",
               "RelativeToolTip": "Assets\\CharacterManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T21:51:30.521Z",
               "EditorCaption": ""
@@ -41,10 +58,8 @@
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\unityyyyy\\\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430\u043E\u0430 \u2014 \u043A\u043E\u043F\u0438\u044F (2)\\Assets\\PlayerController.cs",
               "RelativeToolTip": "Assets\\PlayerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T21:22:08.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T21:22:08.165Z"
             }
           ]
         }

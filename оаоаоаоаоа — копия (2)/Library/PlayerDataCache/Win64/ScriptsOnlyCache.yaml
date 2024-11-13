@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CharacterManager
     - Enemy
+    - ExitManager
     - Hero
     - MainCamera
     - MainMenuController
@@ -241,15 +242,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1776}
+    - Class: 114
       Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3596}
-    - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3940}
     - Class: 114
       Script: {instanceID: 4566}
     - Class: 114
@@ -260,6 +261,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9670}
     - Class: 114
       Script: {instanceID: 11912}
+    - Class: 114
+      Script: {instanceID: 28812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,6 +301,8 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
       Script: {instanceID: 1774}
     - Class: 114
       Script: {instanceID: 1776}
@@ -306,29 +311,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1780}
     - Class: 114
-      Script: {instanceID: 1782}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 2044}
     - Class: 114
-      Script: {instanceID: 2046}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 2828}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3596}
+      Script: {instanceID: 3774}
     - Class: 114
-      Script: {instanceID: 3776}
-    - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3940}
     - Class: 114
       Script: {instanceID: 4566}
     - Class: 114
@@ -407,6 +410,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11906}
     - Class: 114
       Script: {instanceID: 12410}
+    - Class: 114
+      Script: {instanceID: 28812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -445,15 +450,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3596}
+      Script: {instanceID: 3940}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 4446}
     - Class: 114
       Script: {instanceID: 4566}
     - Class: 114
@@ -464,6 +469,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9670}
     - Class: 114
       Script: {instanceID: 10320}
+    - Class: 114
+      Script: {instanceID: 28812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -487,12 +494,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRenderPipelineAsset
-  - hash:
-      serializedVersion: 2
-      Hash: e2918b71b45ab7f9334661057cf418db
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Hero
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -895,6 +896,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
     className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: e2918b71b45ab7f9334661057cf418db
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Hero
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -2023,6 +2030,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d9cd715bfbf637f72513b2cf3a4f5ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExitManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
