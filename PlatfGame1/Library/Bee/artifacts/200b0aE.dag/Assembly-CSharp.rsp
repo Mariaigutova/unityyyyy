@@ -392,6 +392,7 @@
 "Assets/Scenes/FlyingEnemy.cs"
 "Assets/Scenes/GameManager.cs"
 "Assets/Scenes/hero2.cs"
+"Assets/Scenes/Level2.cs"
 "Assets/Scenes/MainMenu.cs"
 "Assets/Scenes/PauseMenu.cs"
 -langversion:9.0
