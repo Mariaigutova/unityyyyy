@@ -64,21 +64,33 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.51f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scenes/Level2.cs" />
-    <Compile Include="Assets/Scenes/FlyingEnemy.cs" />
-    <Compile Include="Assets/Scenes/PauseMenu.cs" />
-    <Compile Include="Assets/LevelManager.cs" />
-    <Compile Include="Assets/Scenes/GameManager.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level1.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev5/DinamicEnemy_5.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level2.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev2/DinamicEnemy_2.cs" />
+    <Compile Include="Assets/Scripts/Levels/LevelManager.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev4/FlyingEnemy_4.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level4.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev1/enemysc.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev4/enemysc_4.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev5/enemysc_5.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev1/FlyingEnemy.cs" />
+    <Compile Include="Assets/Scripts/MainMenu.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev4/DinamicEnemy_4.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev3/enemysc_3.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/CharacterManager.cs" />
-    <Compile Include="Assets/Scenes/hero2.cs" />
-    <Compile Include="Assets/Scenes/Level5.cs" />
-    <Compile Include="Assets/Scenes/DinamicEnemy.cs" />
-    <Compile Include="Assets/Scenes/enemysc.cs" />
-    <Compile Include="Assets/Scenes/MainMenu.cs" />
-    <Compile Include="Assets/Level1.cs" />
-    <Compile Include="Assets/Scenes/Level3.cs" />
-    <Compile Include="Assets/Scenes/Level4.cs" />
-    <Compile Include="Assets/Scenes/camera.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level5.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev3/FlyingEnemy_3.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev3/DinamicEnemy_3.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev1/DinamicEnemy.cs" />
+    <Compile Include="Assets/Scripts/camera.cs" />
+    <Compile Include="Assets/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/Scripts/hero2.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level3.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev2/enemysc_2.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev5/FlyingEnemy_5.cs" />
+    <Compile Include="Assets/Scripts/enemies_Lev2/FlyingEnemy_2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
