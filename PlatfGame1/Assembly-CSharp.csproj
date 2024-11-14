@@ -76,6 +76,7 @@
     <Compile Include="Assets/Scenes/MainMenu.cs" />
     <Compile Include="Assets/Level1.cs" />
     <Compile Include="Assets/Scenes/Level3.cs" />
+    <Compile Include="Assets/Scenes/Level4.cs" />
     <Compile Include="Assets/Scenes/camera.cs" />
   </ItemGroup>
   <ItemGroup>
