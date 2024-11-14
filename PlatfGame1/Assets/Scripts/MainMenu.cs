@@ -13,10 +13,8 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        if (PauseMenu.isGamePaused)
-        {
-            SceneManager.LoadScene("Level_1");
-        }
+        SceneManager.LoadScene("Level_1");
+        
     }
 
     public void ExitGame()
