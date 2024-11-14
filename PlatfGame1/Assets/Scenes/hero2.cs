@@ -48,7 +48,11 @@ public class hero : MonoBehaviour
 
     private void Jump()
     {
-        rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+        if (isGrounded)
+        {
+            isGrounded = false;
+            rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+    }
     }
 
     private void CheckGround()
