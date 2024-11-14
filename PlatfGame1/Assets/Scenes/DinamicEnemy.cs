@@ -28,7 +28,7 @@ public class DinamicEnemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")        
         {
-            SceneManager.LoadScene(0);        
+            SceneManager.LoadScene(1);        
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

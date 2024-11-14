@@ -12,7 +12,7 @@ public class Level4 : MonoBehaviour
     { 
         if (other.gameObject == finishPoint.gameObject && levelManager.AllEnemiesKilled()) 
         { 
-            SceneManager.LoadScene(4); 
+            SceneManager.LoadScene(5); 
         } 
         else 
         { 

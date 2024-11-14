@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scenes/GameManager.cs" />
     <Compile Include="Assets/CharacterManager.cs" />
     <Compile Include="Assets/Scenes/hero2.cs" />
+    <Compile Include="Assets/Scenes/Level5.cs" />
     <Compile Include="Assets/Scenes/DinamicEnemy.cs" />
     <Compile Include="Assets/Scenes/enemysc.cs" />
     <Compile Include="Assets/Scenes/MainMenu.cs" />

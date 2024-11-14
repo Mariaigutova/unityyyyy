@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FlyingEnemy : MonoBehaviour
 {
+    public LevelManager levelManager;
     public float speed;
     private Transform player;
 
@@ -23,7 +24,7 @@ public class FlyingEnemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 
@@ -32,6 +33,7 @@ public class FlyingEnemy : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            levelManager.EnemyKilled();
         }
     }
     
