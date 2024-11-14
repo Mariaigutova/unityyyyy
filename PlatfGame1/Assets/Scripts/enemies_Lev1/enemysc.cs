@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement; 
  
  
-public class enemysc : MonoBehaviour 
+public class Enemysc : MonoBehaviour 
 { 
     public LevelManager levelManager; 
  

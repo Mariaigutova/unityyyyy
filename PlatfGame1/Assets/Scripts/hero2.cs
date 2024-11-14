@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class hero : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
-    [SerializeField] private int lives = 5;
     [SerializeField] private float jumpForce = 15f;
     private bool isGrounded = false;
     [SerializeField] private float fallThreshold = -10f;  // Порог для падения

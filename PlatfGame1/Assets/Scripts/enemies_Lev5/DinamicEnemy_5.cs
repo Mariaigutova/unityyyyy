@@ -4,40 +4,47 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class DinamicEnemy_5 : MonoBehaviour
-{    
+{
     public LevelManager levelManager;
-    public float speed = 0.03f;    
-    public Vector3[] positions;
-    private int currentTarget;
-    public void FixedUpdate()
-    {        
-        transform.position = Vector3.MoveTowards(transform.position, positions[currentTarget], speed);
-        if (transform.position == positions[currentTarget])        
-        {
-            if (currentTarget < positions.Length - 1)            
-            {
-                currentTarget++;
-            }            
-            else
-            {                
-                currentTarget = 0;            
-            }
-        }  
+    public float speed = 0.03f;
+    public float startX;
+    public float endX;
+    private bool movingToEnd = true;
+
+    public void Start()
+    {
+        transform.position = new Vector3(startX, transform.position.y, transform.position.z);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)    
+    public void FixedUpdate()
     {
-        if (collision.gameObject.tag == "Player")        
+        float targetX = movingToEnd ? endX : startX;
+        Vector3 targetPosition = new Vector3(targetX, transform.position.y, transform.position.z);
+
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed);
+
+        if (Mathf.Abs(transform.position.x - targetPosition.x) < 0.01f)
         {
-            SceneManager.LoadScene(5);        
+            movingToEnd = !movingToEnd;
+
+            transform.position = new Vector3(targetX, transform.position.y, transform.position.z);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {        
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.tag == "Player")
-        {            
-            Destroy(gameObject);
-            levelManager.EnemyKilled();        
+        {
+            SceneManager.LoadScene(5);
         }
-    }    
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+            levelManager.EnemyKilled();
+        }
+    }
 }

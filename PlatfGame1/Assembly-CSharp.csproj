@@ -64,7 +64,6 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.51f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Levels/Level1.cs" />
     <Compile Include="Assets/Scripts/enemies_Lev5/DinamicEnemy_5.cs" />
     <Compile Include="Assets/Scripts/Levels/Level2.cs" />
     <Compile Include="Assets/Scripts/enemies_Lev2/DinamicEnemy_2.cs" />
@@ -91,6 +90,7 @@
     <Compile Include="Assets/Scripts/enemies_Lev2/enemysc_2.cs" />
     <Compile Include="Assets/Scripts/enemies_Lev5/FlyingEnemy_5.cs" />
     <Compile Include="Assets/Scripts/enemies_Lev2/FlyingEnemy_2.cs" />
+    <Compile Include="Assets/Scripts/Levels/Level1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
