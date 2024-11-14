@@ -393,6 +393,7 @@
 "Assets/Scenes/GameManager.cs"
 "Assets/Scenes/hero2.cs"
 "Assets/Scenes/Level2.cs"
+"Assets/Scenes/Level3.cs"
 "Assets/Scenes/MainMenu.cs"
 "Assets/Scenes/PauseMenu.cs"
 -langversion:9.0
